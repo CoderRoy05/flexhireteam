@@ -1,0 +1,26 @@
+// Assuming you have a GraphQL file (e.g., UserQuery.graphql)
+import { graphql } from 'react-relay';
+
+export const UserQuery = graphql`
+  query UserQuery {
+    viewer {
+      user {
+        name
+        jobs {
+          applied {
+            // Add any other fields you need from the applied jobs
+          }
+          screening {
+            // Add any other fields you need from the screening jobs
+          }
+          interview {
+            // Add any other fields you need from the interview jobs
+          }
+          offers {
+            // Add any other fields you need from the offer jobs
+          }
+        }
+      }
+    }
+  }
+`;

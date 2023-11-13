@@ -1,0 +1,16 @@
+describe('Profile Page', () => {
+    it('Displays User Information', () => {
+      // Assuming the Profile page is accessible at /profile
+      cy.visit('/profile');
+  
+      // Replace these selectors and actions with the actual ones from your application
+      cy.get('[data-testid="user-name"]').should('exist');
+      cy.get('[data-testid="user-avatar"]').should('exist');
+      cy.get('[data-testid="user-industry"]').should('exist');
+      cy.get('[data-testid="user-skills"]').should('exist');
+      cy.get('[data-testid="user-video"]').should('exist');
+    });
+  
+    // Add more tests as needed for other functionalities on the Profile page
+  });
+  

@@ -1,0 +1,32 @@
+/* Add this to your CSS file or style tag */
+.profile-container {
+    padding: 20px;
+    background-color: aqua;
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: blue;
+  }
+  
+  .user-info img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-top: 10px;
+  }
+  
+  .skills,
+  .video-answers,
+  .job-applications {
+    margin-top: 20px;
+    background-color: blueviolet;
+  }
+  
+  .job-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+  }
+  
