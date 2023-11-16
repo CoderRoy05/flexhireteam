@@ -8,7 +8,7 @@ app.use(cors());
 
 
 app.post('/api/v2', (req, res) => {
-  // Handle your API logic here
+  // Handle My API logic here
   res.json({ message: 'API response' });
 });
 

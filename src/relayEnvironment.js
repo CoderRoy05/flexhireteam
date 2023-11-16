@@ -6,7 +6,7 @@ function fetchQuery(operation, variables) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'FLEXHIRE-API-KEY': 'v4zf7guf9eucr3c5', // Replace with your actual API key
+      'FLEXHIRE-API-KEY': 'v4zf7guf9eucr3c5', //API Key Insertion
     },
     body: JSON.stringify({
       query: operation.text,

@@ -1,30 +1,3 @@
-// // import { useState } from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import ReactDOM from 'react-dom';
-// import Flexhire from './Flexhire';
-// // import Profile from './Profile';
-
-// import SignIn from './SignIn';
-
-// function App() {
-
-//   return (
-//     <>
-//           {/* <Profile /> */}
-//       <Flexhire />
-//       {/* <SignIn /> */}
-//       <Router>
-
-//         {/* <Route path="/SignIn" element={<SignIn />} /> */}
-        
-//       </Router>
-//     </>
-//   );
-// }
-
-// export default App;
-
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Flexhire from './Flexhire';
