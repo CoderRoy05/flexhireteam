@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+            mix-blend-mode: difference;
+            pointer-events: none;
+            transition: transform 0.2s ease-out;
+        }
+
+        .trail {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+            pointer-events: none;
+            transition: transform 1s linear, opacity 1s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="trail"></div>
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+        const trail = document.querySelector('.trail');
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+            trail.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+            trail.style.opacity = '1';
+        });
+
+        document.addEventListener('mouseout', () => {
+            trail.style.opacity = '0';
+        });
+    </script>
+</body>
+</html> -->
